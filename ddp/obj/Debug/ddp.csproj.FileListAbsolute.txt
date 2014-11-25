@@ -1,0 +1,6 @@
+c:\users\derekp\documents\visual studio 2013\Projects\ddp\ddp\bin\Debug\ddp.exe.config
+c:\users\derekp\documents\visual studio 2013\Projects\ddp\ddp\bin\Debug\ddp.exe
+c:\users\derekp\documents\visual studio 2013\Projects\ddp\ddp\bin\Debug\ddp.pdb
+c:\users\derekp\documents\visual studio 2013\Projects\ddp\ddp\obj\Debug\ddp.csprojResolveAssemblyReference.cache
+c:\users\derekp\documents\visual studio 2013\Projects\ddp\ddp\obj\Debug\ddp.exe
+c:\users\derekp\documents\visual studio 2013\Projects\ddp\ddp\obj\Debug\ddp.pdb
