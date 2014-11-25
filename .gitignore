@@ -1,0 +1,4 @@
+# exclude object folder
+ddp\obj\*
+# eclude pdb files
+*.pdb
