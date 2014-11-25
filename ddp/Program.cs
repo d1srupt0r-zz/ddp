@@ -11,7 +11,7 @@ namespace ddp
         private static void Main(string[] args)
         {
             bool verbose = false, emailOnly = false;
-            string filename = args[0], output = "filtered.txt";
+            string filename = args.Length > 0 ? args[0] : string.Empty, output = "filtered.txt";
             var commands = args.Select((value, index) => new { value = args[index], index });
 
             try
@@ -26,9 +26,17 @@ namespace ddp
                             output = args[cmd.index + 1];
                             break;
 
+                        case "/v":
+                        case "/verbose":
+                            verbose = true;
+                            break;
+
+                        case "/e":
+                        case "/email":
+                            emailOnly = true;
+                            break;
+
                         default:
-                            verbose = cmd.value == "/v" || cmd.value == "/verbose";
-                            emailOnly = cmd.value == "/e" || cmd.value == "/email";
                             break;
                     }
                 }
